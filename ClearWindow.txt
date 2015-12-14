@@ -1,0 +1,10 @@
+# 将ClearWindow.py复制到Python安装目录的Lib\idlelib下
+# 编辑该目录下的config-extensions.def
+# 在末尾添加内容：
+[ClearWindow]
+enable=1
+enable_editor=0
+enable_shell=1
+[ClearWindow_cfgBindings]
+clear-window=<Control-Key-;>
+# 保存，退出
